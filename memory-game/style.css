@@ -1,9 +1,8 @@
-:root{
-
+:root {
+  --sanityCheck: 1px solid red;
 }
 
-*{
-
+* {
 }
 
 body {
@@ -15,11 +14,17 @@ body {
 .container {
   margin: 0 auto;
   width: 600px;
+  outline: var(--sanityCheck);
 }
 
-.grid{
+.container h1 {
+  text-align: center;
+}
+
+.grid {
   display: flex;
   flex-wrap: wrap;
   height: 300px;
   width: 400px;
+  outline: var(--sanityCheck);
 }
