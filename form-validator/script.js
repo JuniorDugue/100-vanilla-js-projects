@@ -13,6 +13,12 @@ function showError(input, message) {
   small.innerText = message;
 }
 
+// Show success outline
+function showSuccess(input){
+  const formControl = input.parentElement;
+  formControl.className = "form-control success";
+}
+
 // Event Listeners
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -20,7 +26,6 @@ form.addEventListener("submit", function (e) {
   console.log(username.value);
 
   if (username.value === "") {
-    // alert("please enter something");
     showError(username, "Username is required");
   } else {
     showSuccess(username);
