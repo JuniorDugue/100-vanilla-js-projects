@@ -1,0 +1,25 @@
+:root{
+
+}
+
+*{
+
+}
+
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
