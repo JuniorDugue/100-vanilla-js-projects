@@ -1,0 +1,22 @@
+:root {
+  --backgroundColor: #242333;
+  --textColor: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--backgroundColor);
+  color: var(--textColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+
