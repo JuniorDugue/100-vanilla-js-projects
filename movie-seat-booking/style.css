@@ -44,7 +44,11 @@ h1 {
   appearance: none;
 }
 
-.container {
+.movie-section label {
+  font-size: 1.5em;
+}
+
+.seat-pickers {
   perspective: 1000px;
   margin-bottom: 30px;
 }
@@ -125,4 +129,17 @@ p.text {
 
 p.text span {
   color: var(--activeState);
+}
+
+@media screen and (max-width: 500px){
+
+  .container{
+    width: 500px;
+    max-width: 100%;
+  }
+
+  .screen{
+    width: 80%;
+    margin: 0 auto;
+  }
 }
