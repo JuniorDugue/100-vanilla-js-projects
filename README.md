@@ -11,4 +11,4 @@ deployed site(s):
 - movie seating booking app https://movie-seat-booking-alpha.vercel.app/
 
 - stop watch
-![Stop watch](/stop-watch/stop-watch.jpg)
+![Stop watch](/stop-watch/stopwatch.gif)
