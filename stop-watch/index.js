@@ -31,7 +31,21 @@ function startTimer() {
   }
 }
 
+// start button
 buttonStart.onclick = function () {
   interval = setInterval(startTimer);
 };
 
+// stop button
+buttonStop.onclick = function () {
+  clearInterval(interval);
+};
+
+// reset button
+buttonReset.onclick = function () {
+  clearInterval(interval);
+  tens = "00";
+  seconds = "00";
+  appendSeconds.innerHTML = seconds;
+  appendTens.innerHTML = tens;
+};
