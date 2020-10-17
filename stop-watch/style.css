@@ -1,0 +1,27 @@
+/* 
+
+font color -> #262626
+primary color -> #cf3c26
+secondary color -> #cccccc
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100%;
+  background: /*haven't decided yet*/;
+}
+
+.container{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img {
+
+}

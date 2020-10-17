@@ -9,3 +9,5 @@ deployed site(s):
 
 - memory game(lambda units edition) https://lambda-units-memory-game.vercel.app/
 - movie seating booking app https://movie-seat-booking-alpha.vercel.app/
+
+- stop watch
