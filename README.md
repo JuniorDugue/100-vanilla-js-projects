@@ -7,8 +7,8 @@ deployed site(s):
 - form validator https://form-validator-ten.vercel.app/
 ![Form validator](/form-validator/form-validator.jpg)
 
-- memory game(lambda units edition) https://lambda-units-memory-game.vercel.app/
+- memory game(lambda units edition) app https://lambda-units-memory-game.vercel.app/
 - movie seating booking app https://movie-seat-booking-alpha.vercel.app/
 
-- stop watch
+- stop watch app
 ![Stop watch](/stop-watch/stopwatch.gif)
