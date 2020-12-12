@@ -57,7 +57,7 @@ section #result {
 }
 
 img {
-  margin: 5px;
+  /* margin: 5px; */
   width: 50%;
   cursor: pointer;
 }
