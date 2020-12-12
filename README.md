@@ -1,14 +1,19 @@
 # 100-vanilla-js-projects
 
-small applications, side projects with vanilla js no frameworks
+## small applications, side projects with vanilla js no frameworks
 
-deployed site(s):
+### table of contents
 
-- form validator https://form-validator-ten.vercel.app/
-![Form validator](/form-validator/form-validator.jpg)
+- [form validator](js_projects/form-validator)
+  ![Form validator](js_projects/form-validator/form-validator.jpg)
 
-- memory game(lambda units edition) app https://lambda-units-memory-game.vercel.app/
-- movie seating booking app https://movie-seat-booking-alpha.vercel.app/
+- [memory game(lambda units edition) app](js_projects/memory-game)
 
-- stop watch app
-![Stop watch](/stop-watch/stopwatch.gif)
+- [movie seating booking app](js_projects/movie-seat-booking)
+
+- [stop watch app](js_projects/stop-watch)
+  ![Stop watch](js_projects/stop-watch/stopwatch.gif)
+
+- [custom video play]()
+
+- []()
