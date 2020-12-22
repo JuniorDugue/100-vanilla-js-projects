@@ -12,9 +12,22 @@
       <p id="break" class="label">Break:</p>
       <p id="cycles" class="label">Cycles:</p>
 
-      <button id="start">Start</button>
-      <button id="stop">Stop</button>
-      <button id="reset">Reset</button>
+      <div class="timer" id="work-timer">
+        <p id="work-minutes">25</p>
+        <p class="semicolon">:</p>
+        <p id="work-seconds">00</p>
+      </div>
+
+      <p id="counter" class="timer">0</p>
+
+      <div id="break-timer" class="timer">
+        <p id="break-minutes">25</p>
+        <p class="semicolon">:</p>
+        <p id="break-seconds">00</p>
+      </div>
+      <button id="start" class="btn">Start</button>
+      <button id="stop" class="btn">Stop</button>
+      <button id="reset" class="btn">Reset</button>
     </div>
     <script src="./app.js"></script>
   </body>
