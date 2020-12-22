@@ -5,4 +5,13 @@
 
 .container {
   border: 1px solid red;
+  width: 600px;
+  margin: 0 auto;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.label {
 }
